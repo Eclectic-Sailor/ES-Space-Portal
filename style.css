@@ -1,0 +1,71 @@
+body {
+    font-family: system-ui, sans-serif;
+    background-image: url('C:\\Users\\jrmat\\OneDrive\\Documents\\space-dashboard\\improved\\northern-lights-7112448_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  header h1 {
+    font-size: 15rem;
+    font-weight: 900;
+    position: relative;
+    display: inline-block;
+    background-image: url('C:\\Users\\jrmat\\OneDrive\\Documents\\space-dashboard\\improved\\northern-lights-7112448_1280.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f5f5f5;
+    color: transparent;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #161b22;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #30363d;
+  }
+  
+  main {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  section {
+    margin-bottom: 3rem;
+    padding: 1rem;
+    background: rgba(28, 33, 40, 0.4);
+    border-radius: 8px;
+    box-shadow: 0 0 8px #0d1117;
+    width: 100%;
+  }
+
+  a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #79c0ff;
+  }
+
+  #name {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 5rem;
+    color: #000000;
+    text-shadow: 2px 2px #550000, 0 0 8px rgba(168, 0, 0, 0.75), 0 0 25px rgba(255, 36, 36, 0.5);
+  }
