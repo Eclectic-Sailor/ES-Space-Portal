@@ -1,6 +1,6 @@
 body {
     font-family: system-ui, sans-serif;
-    background-image: url('C:\\Users\\jrmat\\OneDrive\\Documents\\space-dashboard\\improved\\northern-lights-7112448_1280.jpg');
+    background-image: url('northern-lights-7112448_1280.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,7 +15,7 @@ body {
     font-weight: 900;
     position: relative;
     display: inline-block;
-    background-image: url('C:\\Users\\jrmat\\OneDrive\\Documents\\space-dashboard\\improved\\northern-lights-7112448_1280.jpg');
+    background-image: url('northern-lights-7112448_1280.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
