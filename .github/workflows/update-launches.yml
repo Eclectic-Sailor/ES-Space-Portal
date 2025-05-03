@@ -1,0 +1,26 @@
+name: Update Launch Data
+
+on:
+  schedule:
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-launches:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Fetch space launch data
+      run: |
+        curl -s 'https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=5' > launches.json
+
+    - name: Commit updated file
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add launches.json
+        git commit -m "Update launches.json"
+        git push
